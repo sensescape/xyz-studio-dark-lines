@@ -16,18 +16,6 @@ global:
     sdk_api_key: '3eqm2_bfTNGZ85ar20fVyA'     # set this value to your Mapzen API key
 
     black_color:                  [0.651,0.651,0.651]
-    dark_color:                   [0.800,0.646,0.528]
-    mid_color:                    [0.820,0.671,0.558]
-    midlight_color:               [0.850,0.706,0.595]
-    extralight_color:             [0.880,0.745,0.642]
-    light_color:                  [0.910,0.786,0.692]
-    lighter_color:                [0.940,0.833,0.752]
-    lightest_color:               [0.960,0.873,0.806]
-    ultralight_color:             [0.980,0.902,0.843]
-    offwhite_color:               [0.980,0.924,0.882]
-    white_color:                  [0.957,0.945,0.929]
-
-    tunnel_color:                 [0.900,0.877,0.864]
 
     roads_text_fill:              [0.600,0.600,0.600]
     roads_text_stroke:            [0.149,0.149,0.149]
@@ -581,10 +569,10 @@ layers:
                     - kind_detail: [steps, track, pier]
             draw:
                 lines:
-                    dash: [0.75, 0.75]
+                    dash: [3.0, 5.0]
                     dash_background_color: [0.149,0.149,0.149]
                     color: [1.000,1.000,1.000]
-                    width: [[15, 0px], [17, 1px]]
+                    width: [[16, 0.5px], [19, 1px]]
             labels-path:
                 filter: { $zoom: { min: 18 } }
                 draw:
